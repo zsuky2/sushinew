@@ -1,63 +1,73 @@
-body{
+body {
 
     background-image: url("img/servicesimg.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-#up{
+#up {
 
     position: fixed !important;
     right: 1em;
     bottom: 1em;
     z-index: 99;
     color: #df4759;
-    
-    
+
+
 }
 
-#full, .hero{
+#full,
+.hero {
 
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
 }
 
-.hero-section{
+.hero-section {
 
     background-image: url("img/heroimg.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
     color: #fff;
     display: flex;
-    align-items: center; /*vertikális középre igazítás*/
-    justify-content: center; /*horizontális középre igazítás*/
+    align-items: center;
+    /*vertikális középre igazítás*/
+    justify-content: center;
+    /*horizontális középre igazítás*/
     font-family: 'Kaushan Script', cursive;
 }
 
 
-h1,h2,h3,a,strong{
+h1,
+h2,
+h3,
+a,
+strong {
 
     font-family: 'Kaushan Script', cursive;
 }
 
-strong{
+strong {
 
     font-size: 1.5rem;
 }
 
-p,li,h4,label{
+p,
+li,
+h4,
+label {
 
     font-family: 'Courgette', cursive;
 }
 
 
-iframe{
+iframe {
     height: 300px;
     width: 100%;
     filter: invert(75%);
@@ -65,26 +75,26 @@ iframe{
 
 
 @media screen and (min-width:1400px) {
-    
 
-    .carousel-inner{
 
-        margin:0;
-        padding:0;
+    .carousel-inner {
+
+        margin: 0;
+        padding: 0;
         height: 720px;
         width: 100%;
     }
 
-}    
+}
 
 
 @media screen and (max-width:1400px) {
-    
 
-    .carousel-inner{
 
-        margin:0;
-        padding:0;
+    .carousel-inner {
+
+        margin: 0;
+        padding: 0;
         height: 620px;
         width: 100%;
     }
@@ -93,12 +103,12 @@ iframe{
 
 
 @media screen and (max-width:1200px) {
-    
 
-    .carousel-inner{
 
-        margin:0;
-        padding:0;
+    .carousel-inner {
+
+        margin: 0;
+        padding: 0;
         height: 520px;
         width: 100%;
     }
@@ -106,12 +116,12 @@ iframe{
 }
 
 @media screen and (max-width:992px) {
-    
 
-    .carousel-inner{
 
-        margin:0;
-        padding:0;
+    .carousel-inner {
+
+        margin: 0;
+        padding: 0;
         height: 390px;
         width: 100%;
     }
@@ -120,16 +130,16 @@ iframe{
 
 
 @media screen and (max-width:768px) {
-    
-    .row div{
+
+    .row div {
 
         margin-bottom: 25px;
     }
 
-    .carousel-inner{
+    .carousel-inner {
 
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
         height: 290px;
         width: 100%;
     }
@@ -137,24 +147,22 @@ iframe{
 }
 
 @media screen and (max-width:576px) {
-    
-    .row div{
+
+    .row div {
 
         margin-bottom: 25px;
     }
 
-    .collage-section{
+    .collage-section {
 
         display: none;
-    } 
+    }
 
 }
 
 
-a{
+a {
 
     text-decoration: none;
     color: red;
 }
-
-
